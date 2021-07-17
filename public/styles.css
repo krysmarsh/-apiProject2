@@ -1,0 +1,135 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: rgb(211, 211, 211);
+    text-align: center;
+}
+
+/* BODY */
+
+/* .main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} */
+
+.card {
+    position: absolute;
+    background-color: purple;
+    border: none;
+    border-radius: 10px 100px / 120px;
+    align-items: center;
+    width: 1200px;
+
+}
+
+.card-img-top {
+    height: 40vh;
+    width: 40vw;
+    border-radius: 30px 200px / 50px;
+    text-align: center;
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Title of imgage */
+.card-title {
+    font-size: 45px;
+    padding: 15px;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+#button-fetch {
+    background-color: black;
+    border-color: black;
+    border-style: groove;
+    width: 650px;
+
+}
+/*API 2 Project */
+/*Bounce Header */    
+    .bounce {
+     height: 100px;	
+     overflow: hidden;
+     position: relative;
+     background: purple;
+     color: black;
+     font-size: 75px;
+     border: 1px solid black;
+     border-radius: 10px 100px / 120px;
+     font-style: italic;
+    }
+    .bounce p {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     margin: 20px;
+     line-height: 50px;
+     text-align: center;
+     /* Starting position */
+     -moz-transform:translateX(50%);
+     -webkit-transform:translateX(50%);	
+     transform:translateX(50%);
+     /* Apply animation to this element */	
+     -moz-animation: bouncing-text 5s lin   ear infinite alternate;
+     -webkit-animation: bouncing-text 5s linear infinite alternate;
+     animation: bouncing-text 5s linear infinite alternate;
+    }
+    /* Move it (define the animation) */
+    @-moz-keyframes bouncing-text {
+     0%   { -moz-transform: translateX(50%); }
+     100% { -moz-transform: translateX(-50%); }
+    }
+    @-webkit-keyframes bouncing-text {
+     0%   { -webkit-transform: translateX(50%); }
+     100% { -webkit-transform: translateX(-50%); }
+    }
+    @keyframes bouncing-text {
+     0%   { 
+     -moz-transform: translateX(50%); /* Browser bug fix */
+     -webkit-transform: translateX(50%); /* Browser bug fix */
+     transform: translateX(50%); 		
+     }
+     100% { 
+     -moz-transform: translateX(-50%); /* Browser bug fix */
+     -webkit-transform: translateX(-50%); /* Browser bug fix */
+     transform: translateX(-50%); 
+     }
+    }
+     
+#paragraph1 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+}
+
+
+/*buttons */
+/* 
+.modal-footer.btn {
+    margin-right: 30px;
+    background-color: #3d434f;
+}
+
+.btn-dark {
+    background-color: #3d434f;
+} */
+
+/* Fonts */
+
+/*@font-face {
+    font-family: kiona-regular;
+    src: url('./assets/Kiona-Regular.ttf');
+}
+
+@font-face {
+    font-family: space-age;
+    src: url('./assets/space age.ttf');
+}
+
+/* General Setup */
